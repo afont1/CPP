@@ -6,7 +6,7 @@
 /*   By: afont <afont@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 11:56:11 by afont             #+#    #+#             */
-/*   Updated: 2024/08/06 14:03:10 by afont            ###   ########.fr       */
+/*   Updated: 2024/10/14 11:12:28 by afont            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int main()
 {
 	int			i = -1;
-	int			N = 5;
+	int			N = 1;
 	std::string	name = "Ui";
 	Zombie*	horde = zombieHorde(N, name);
 	

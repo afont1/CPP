@@ -6,7 +6,7 @@
 /*   By: afont <afont@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 09:54:36 by afont             #+#    #+#             */
-/*   Updated: 2024/04/11 12:01:03 by afont            ###   ########.fr       */
+/*   Updated: 2024/10/14 11:21:54 by afont            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ int main()
 	jim.attack();
 	jim.setWeapon(nono);
 	jim.attack();
-	nono.setType("");
+	nono.setType("a");
 	jim.attack();
 }

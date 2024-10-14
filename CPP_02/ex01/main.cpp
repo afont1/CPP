@@ -6,7 +6,7 @@
 /*   By: afont <afont@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 09:42:02 by afont             #+#    #+#             */
-/*   Updated: 2024/08/06 16:00:13 by afont            ###   ########.fr       */
+/*   Updated: 2024/10/14 11:54:36 by afont            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 int	main()
 {
-	Fixed a;
+	Fixed 		a;
 	Fixed const b( 10 );
 	Fixed const c( 42.42f );
 	Fixed const d( b );
@@ -27,9 +27,9 @@ int	main()
 	std::cout << "c is " << c << std::endl;
 	std::cout << "d is " << d << std::endl;
 	
-	std::cout << "a is " << a.toFloat() << " as integer" << std::endl;
-	std::cout << "b is " << b.toFloat() << " as integer" << std::endl;
-	std::cout << "c is " << c.toFloat() << " as integer" << std::endl;
-	std::cout << "d is " << d.toFloat() << " as integer" << std::endl;
+	std::cout << "a is " << a.toInt() << " as integer" << std::endl;
+	std::cout << "b is " << b.toInt() << " as integer" << std::endl;
+	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
+	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
 	return 0;
 }

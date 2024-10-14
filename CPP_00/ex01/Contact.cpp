@@ -6,7 +6,7 @@
 /*   By: afont <afont@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 11:16:07 by afont             #+#    #+#             */
-/*   Updated: 2024/08/07 15:13:55 by afont            ###   ########.fr       */
+/*   Updated: 2024/10/14 10:48:07 by afont            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,9 +122,9 @@ int	isspace_str(std::string str)
 	int	i = -1;
 
 	while (str[++i])
-		if (isspace(str[i]))
-			return (1);
-	return (0);
+		if (!isspace(str[i]))
+			return (0);
+	return (1);
 }
 
 int	Contact::OneEmpty(std::string _Contacts[5])
